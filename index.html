@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <title>polo website unity</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="bg">
+            <div class="bg-pattern"></div>
+        <div class="container container-first">
+            <header>
+                <section class="logo-part">
+                <img src="imgs/tekne.png" alt="logo" class="logo">
+                <p class="logo-text">Interactive Streaming </br>Entertainment to Learning</p></section>
+                <nav>
+                    <a href="#" class="hide-desktop">
+                        <img src="imgs/ham.svg" alt="toggle menu"class="menu" id="menu">
+                    </a>
+
+                    <ul class="show-desktop hide-mobile" id="nav">
+                        <li id="exit" class="exit-btn hide-dekstop"><img src="imgs/exit.svg" alt="exit menu"></li>
+                        <li><a href="#">register an acc</a></li>
+                        <li><a href="#">your profile</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section>
+                
+
+                <h1>El Managment ha cambiad</h1>
+                <p class="subhead">apdende de una forma</p>
+                
+                
+
+            </section>
+
+            <section class="buttons">
+                    
+                           <a href="#" class="button-first">transparent transparent</a> 
+                        
+                            <a href="#" class="button-second"> yellow</a>
+                        
+            </section>
+
+        </div>
+    </div>
+
+        <div class="blue-container">
+            <div class="container">
+                <ul>
+                    <li>
+                        <img src="imgs/icon-1.svg" alt="calendar icon">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nostrum ipsa eligendi! Accusamus blanditiis reprehenderit delectus voluptatum eum laborum iure ratione, explicabo laboriosam id maxime officia labore soluta consequuntur quia.</p>
+                    </li>
+                    <li>
+                        <img src="imgs/icon-2.svg" alt="calendar icon">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nostrum ipsa eligendi! Accusamus blanditiis reprehenderit delectus voluptatum eum laborum iure ratione, explicabo laboriosam id maxime officia labore soluta consequuntur quia.</p>
+                    </li>
+                    <li>
+                        <img src="imgs/icon-3.svg" alt="calendar icon">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nostrum ipsa eligendi! Accusamus blanditiis reprehenderit delectus voluptatum eum laborum iure ratione, explicabo laboriosam id maxime officia labore soluta consequuntur quia.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="gray-container">
+            <div class="container">
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="imgs/user1.png" alt="user pic">
+                            <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere optio laborum illum doloremque fugiat possimus, nobis, ab voluptatum natus ut et, consequuntur obcaecati.</blockquote>
+                            <figcaption> - Jane Kowalska</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                            <figure>
+                                <img src="imgs/user2.png" alt="user pic">
+                                <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere optio laborum illum doloremque fugiat possimus, nobis, ab voluptatum natus ut et, consequuntur obcaecati. </blockquote>
+                                <figcaption> - Jan Kowalski</figcaption>
+                            </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Start something</h2>
+            <a href="#" class="cta">Zacznij coś</a>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="container">
+                    <a href="#">
+                        <img src="imgs/logo-white.svg" class="logo" alt="logo">
+                    </a>
+                        <p class="address">Malaga 00-000<br>Spain</p>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#">Terms</a>
+                                <a href="#">Privacy</a>
+                            </li>
+                        </ul>
+                      
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+            var menu = document.getElementById('menu');
+            var nav = document.getElementById('nav');
+            var exit = document.getElementById('exit');
+
+            menu.addEventListener('click', function(e) {
+                nav.classList.toggle('hide-mobile');
+                e.preventDefault();
+            });
+
+            exit.addEventListener('click', function(e) {
+                nav.classList.add('hide-mobile');
+                e.preventDefault();
+            });
+        
+        </script>
+
+    </body>
+</html>
