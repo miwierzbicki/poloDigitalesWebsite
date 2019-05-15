@@ -56,10 +56,11 @@ header {
 
 .blue-container {
     width: 100%;
-    background-color: #00C2FF;
-    color: #fff;
+    height: 100vh;
+    background-color: #fff;
+    color: black;
     margin-top: 15%;
-    padding: 4em 0 2em;
+
 }
 
 .blue-container ul li { 
@@ -331,6 +332,7 @@ ALL ABOVE WILL BE CHANGED LATER
 
     .container {
         width: 70%;
+        height: 100vh;
         
     }
 
@@ -357,7 +359,7 @@ ALL ABOVE WILL BE CHANGED LATER
     }
 
     .blue-container { 
-        padding: 7em 0 2em;
+        /*padding: 7em 0 2em; */
     }
 
     .blue-container ul li p, blockquote{ 
@@ -425,4 +427,53 @@ ALL ABOVE WILL BE CHANGED LATER
     .first-section {
         height: 100vh;
     }
+
+    .second-section {
+        height: 100vh;
+    }
+
+    .logos-second {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: -3em;
+        
+    }
+
+    .logos-second img {
+        width: 500px;
+    }
+
+    .logos-second p {
+        font-size: 4em;
+    }
+
+    .desc { 
+        font-size: 2em;
+        margin-top: -2em;
+    }
+
+    .video-first {
+        display: flex;
+        align-items: center;
+        justify-content: space-around  ;
+        margin-bottom: 3em;
+        
+    }
+
+    .video-first img, .video-second img {
+        width: 500px;
+    }
+    .video-second { 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .video-first-desc, .video-second-desc {
+        font-size: 2em;
+        font-weight: bold;
+       
+    }
+
 }
