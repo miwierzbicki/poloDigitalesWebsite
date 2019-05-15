@@ -305,6 +305,21 @@ nav ul li a:hover {
         }
     }
 }
+/*
+#
+#
+#
+#
+#
+ALL BELOW IS RELATED TO EDITED TEMPLATE
+ALL ABOVE WILL BE CHANGED LATER 
+#
+#
+#
+#
+#
+*/
+
 
 @media only screen and (min-width: 1600px) {
    
@@ -328,7 +343,8 @@ nav ul li a:hover {
     .bg {
          background: url(imgs/bg-1.jpeg) ; 
          background-position-x: center;
-        background-size: cover; 
+         background-position-y: center;
+        background-size: 100% 100%; 
         width: 100%;
  
          
@@ -404,5 +420,9 @@ nav ul li a:hover {
        font-weight: bold;
        text-align: left;
        font-size: 1.3em;
+    }
+
+    .first-section {
+        height: 100vh;
     }
 }
