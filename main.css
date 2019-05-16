@@ -544,4 +544,17 @@ ALL ABOVE WILL BE CHANGED LATER
     #footer-left-desc {
         margin-left: -40vh; 
     }
+
+    .btn-1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .btn-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
