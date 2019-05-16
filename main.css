@@ -537,8 +537,9 @@ ALL ABOVE WILL BE CHANGED LATER
     }
 
     .footer-logo-desc {
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: bold;
+        margin-bottom: 10vh;
     }
 
     #footer-left-desc {
@@ -547,14 +548,18 @@ ALL ABOVE WILL BE CHANGED LATER
 
     .btn-1 {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         margin-bottom: 2em;
     }
 
     .btn-2 {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
+    }
+
+    #info-no-bg {
+        background: none;
     }
 }
