@@ -9,6 +9,54 @@ body {
     width: 200px;
 }
 
+.bg {
+    background: url(imgs/bg-1.jpeg) ; 
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+
+
+.main-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-buttons a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #fff;
+    background-color: #fcc11e;
+    display: block;
+    padding: 1em;
+}
+
+.main-buttons-white p{
+    color: white;
+}
+
+.main-buttons p { 
+    font-size: 1em;
+    padding: 1em;
+
+}
+
+.main-buttons-header a{ 
+    color: white;
+    min-height: 1.5em;
+}
+
+.main-buttons-header p {
+    background-color: black;
+    color: white;
+    min-height: 1.5em;
+}   
+
 .btn-1 {
     display: flex;
     justify-content: space-evenly;
@@ -158,7 +206,7 @@ header {
 }
 
 .blue-container img {
-    width: 100%;
+    width: 50%;
 }
 
 .blue-container ul li:nth-child(3) img {
