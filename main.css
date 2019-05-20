@@ -1,8 +1,87 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+@import url('https://fonts.googleapis.com/css?family=Lato:700,900&display=swap&subset=latin-ext');
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+.list-first-img {
+    width: 200px;
+}
+
+.btn-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: .2em;
+}
+
+#info-no-bg {
+    background: none;
+    color: white;
+}
+
+.btn-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.btn-white-text {
+    color: white;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.list-first-mobile {
+    color: white;
+}
+
+.gray-container ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button-first {
+    display: block;
+    width: 75%;
+    background-color: rgb(242, 242, 242, 0.6);
+   
+    text-decoration: none;
+    font-size: 0.5em;
+    color: black;
+    padding: 1em;
+    
+}
+
+.button-second { 
+    display: block;
+    width: 12%;
+    background-color: #fcc11e;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 0.5em;
+    color: black;
+    
+
+}
+
+
+
+
+
+
+.gray-container ul a:hover {
+    background-color: gray;
 }
 
 p, blockquote {
@@ -73,7 +152,7 @@ header {
 }
 
 .blue-container img {
-    width: 14%;
+    width: 100%;
 }
 
 .blue-container ul li:nth-child(3) img {
@@ -184,6 +263,7 @@ nav ul li a:hover {
         width: 50%;
     }
 
+   
     h1 { 
         font-size: 3em;
         margin: 0;
@@ -325,9 +405,12 @@ ALL ABOVE WILL BE CHANGED LATER
 @media only screen and (min-width: 1025px) {
    
 
+   
+
     h1 {
         
-        font-size: 5vh;
+        font-size: 8vh;
+        font-weight: bold;
     }
 
     .container {
@@ -422,6 +505,7 @@ ALL ABOVE WILL BE CHANGED LATER
        font-weight: bold;
        text-align: left;
        font-size: 1.3em;
+       margin-top: -0.3em;
     }
 
     .first-section {
@@ -436,21 +520,21 @@ ALL ABOVE WILL BE CHANGED LATER
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: -3em;
+        margin-top: 3em;
         
     }
 
     .logos-second img {
-        width: 500px;
+        width: 300px;
     }
 
     .logos-second p {
-        font-size: 4em;
+        font-size: 2em;
     }
 
     .desc { 
         font-size: 2em;
-        margin-top: -2em;
+       
     }
 
     .video-first {
@@ -514,7 +598,7 @@ ALL ABOVE WILL BE CHANGED LATER
         justify-content: space-evenly;
         align-items: center;
         margin-top: 3em;
-        margin-bottom: 20em;
+        margin-bottom: 5em;
     }
 
     
@@ -542,6 +626,7 @@ ALL ABOVE WILL BE CHANGED LATER
 
     .footer-logo {
         width: 30%;
+        margin-top: 3em;
     }
 
     .footer-logo-desc {
@@ -570,4 +655,6 @@ ALL ABOVE WILL BE CHANGED LATER
     #info-no-bg {
         background: none;
     }
+
+
 }
