@@ -279,7 +279,7 @@ nav ul li a:hover {
     h1 { 
         font-size: 3em;
         margin-top: 3em;
-
+        
     }
  
     .subhead {
@@ -430,7 +430,8 @@ ALL ABOVE WILL BE CHANGED LATER
    
 
     h1 {
-        
+        background-color: black;
+        color: white;
         font-size: 8vh;
         font-weight: bold;
     }
@@ -442,9 +443,12 @@ ALL ABOVE WILL BE CHANGED LATER
     }
 
     .subhead { 
-        color: #fcc11e;
+        
+        
         font-size: 2em;
         font-weight: bold;
+        color: white;
+        
     }
 
     .bg {
@@ -677,5 +681,41 @@ ALL ABOVE WILL BE CHANGED LATER
         background: none;
     }
 
+
+    .main-buttons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-buttons a {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: #fff;
+        background-color: #fcc11e;
+        display: block;
+        padding: 1em;
+    }
+
+    .main-buttons-white p{
+        color: white;
+    }
+
+    .main-buttons p { 
+        font-size: 1.5em;
+        padding: 1em;
+
+    }
+
+    .main-buttons-header a{ 
+        color: white;
+    }
+
+    .main-buttons-header p {
+        background-color: black;
+        color: white;
+        
+    }
 
 }
