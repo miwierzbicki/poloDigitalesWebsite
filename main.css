@@ -11,10 +11,9 @@ body {
 
 .bg {
     background: url(imgs/bg-1.jpeg) ; 
-    background-position-x: center;
-    background-position-y: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    overflow: visible;
     
     
 }

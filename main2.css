@@ -1,0 +1,45 @@
+body {
+    background:url(imgs/bg-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+
+
+.login_btn{
+    color: black;
+    background-color: #fff3cd;
+    width: 100px;
+    border-color: rgb(255, 238, 186);
+    color: #856404;
+}
+
+    
+.login_btn:hover{
+    color: black;
+    background-color: #fcc11e;
+    
+}
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+    
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    
+}
+
+a {
+    color: #fcc11e;
+}
+
+a:hover {
+    color: orange;
+}
