@@ -188,13 +188,16 @@ header {
     margin: 2em auto 2em 25%;
 }
 
-.h1, .subhead {
+.h1 {
     position: relative;
     z-index: 3;
+    margin-top: 3em;
 }
 
 .subhead {
-    font-size: 1.3em;
+    position: relative;
+    z-index: 3;
+    margin-top: 2em;
 }
 
 .blue-container {
@@ -488,8 +491,8 @@ ALL ABOVE WILL BE CHANGED LATER
    
 
     h1 {
-        background-color: black;
-        color: white;
+        
+        color: black;
         font-size: 8vh;
         font-weight: bold;
     }
@@ -505,7 +508,7 @@ ALL ABOVE WILL BE CHANGED LATER
         
         font-size: 2em;
         font-weight: bold;
-        color: white;
+        color: black;
         
     }
 
@@ -521,7 +524,7 @@ ALL ABOVE WILL BE CHANGED LATER
 
    
     .container h1 {
-        margin-top: 2em;
+        
         margin-bottom: 1.5em;
     }
 
