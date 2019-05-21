@@ -20,6 +20,16 @@ body {
 }
 
 
+.video-first-desc {
+    font-size: 1.2em;
+   
+}
+
+.video-second-desc {
+    font-size: 1.2em;
+
+}
+
 .main-buttons {
     width: 100%;
     display: flex;
