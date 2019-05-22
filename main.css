@@ -824,50 +824,5 @@ ALL ABOVE WILL BE CHANGED LATER
         color: white;
     }
 
-    .price-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-    }
-
-    .price-list img {
-        max-width: 70%;
-        margin-bottom: 2em;
-        margin-top: 3em;
-    }
-
-    .price-buttons {
-        max-width: 70%;
-        margin-bottom: 3em;
-    }
-
-    .price-buttons a {
-        display: block;
-        background-color: #fcc11e;
-        text-decoration: none;
-        font-size: 1em;
-        padding: 1em;
-        color: #fff;
-    }
-
-    #price-btn-1 {
-        left: 47%;
-        position: absolute;
-    }
-
-    #price-btn-2 {
-        left: 61%;
-        position: absolute;
-    }
-
-    #price-btn-3 {
-        left: 74%;
-        position: absolute;
-    }
-
-    .price-section {
-        background-color: black;
-        max-height: 100vh;
-    }
+   
 }
