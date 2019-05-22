@@ -33,3 +33,14 @@ body {
     border-color: #c6c8ca;
     margin-bottom: -9em;
 }
+
+.btn-warning {
+    background-color: #fcc11e;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;     
+    margin-top: 3em;
+}
