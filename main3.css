@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(odd) {
+    background-color:black;
+}
+
+.table-dark {
+    color: #fff;
+    background-color: #1f1f1f;
+}
+
+.container-fluid {
+    width: 100%;
+    max-height: 100vh;
+    
+}
+
+.table {
+    margin-top: 10em;
+}
+
+.bg-dark {
+    background-color: black!important;
+}
+
+.alert-dark {
+    margin-top: 1em;
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+    margin-bottom: -9em;
+}

@@ -1,8 +1,8 @@
 body {
-    background:url(imgs/bg-1.jpeg);
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
     
 }
 
@@ -23,7 +23,7 @@ body {
     
 }
 
-.container{
+.container-fluid{
     height: 100%;
     align-content: center;
 }
@@ -42,4 +42,13 @@ a {
 
 a:hover {
     color: orange;
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+.navbar-dark {
+    background-color:black!important;
+    
 }
