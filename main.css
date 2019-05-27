@@ -791,6 +791,7 @@ ALL ABOVE WILL BE CHANGED LATER
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: -1em;
     }
 
     .main-buttons a {
