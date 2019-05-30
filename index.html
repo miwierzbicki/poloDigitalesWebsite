@@ -2,8 +2,9 @@
 <html lang="es">
     <head>
         <link rel="stylesheet" href="main.css">
-        <title>Tekne Interactive Streaming 
-            Entertainment to Learning   
+        <link rel="stylesheet" href="slide.css">
+        <title>Tekne Interactive Streaming
+            Entertainment to Learning
             </title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,7 +12,7 @@
     </head>
     <body>
 
-        
+
         <div class="bg bg2">
                 <section class="first-section">
         <div class="container container-first">
@@ -26,39 +27,39 @@
 
                     <ul class="show-desktop hide-mobile" id="nav">
                         <li id="exit" class="exit-btn hide-desktop"><img src="imgs/exit.svg" alt="exit menu"></li>
-                        <li><a href="#">Únete a los probadores</a></li>
-                        <li><a href="login.html">Iniciar sesión</a></li>
+                        <li><a href="register.php">Únete a los probadores</a></li>
+                        <li><a href="login.php">Iniciar sesión</a></li>
                     </ul>
                 </nav>
             </header>
 
-           
-                
+
+
 
                 <h1>El managment ha cambiado.</h1>
                 <p class="subhead">Aprende de una forma diferente.</p>
-                
-                
 
-           
+
+
+
 
                 <div class="main-buttons main-buttons-header">
                     <p>¿Quieres colaborar en el desarrollo del juego?
                     </p>
-                    <a href="#">Descarga</a>
+                    <a href="register.php">Descarga</a>
                 </div>
         </section>
         </div>
-    
+
     </div>
         <section class="second-section">
             <div class="blue-container">
                 <div class="container">
-                    <!--Second section here-->  
+                    <!--Second section here-->
                     <div class="logos-second">
-                        <img src="imgs/tmg.png" alt="true manager games">
+                        <img src="imgs/tmg.png" alt="true manager games" class="blue-img">
                         <p class="by">by</p>
-                        <img src="imgs/tekne.png" alt="tekne logo">
+                        <img src="imgs/tekne.png" alt="tekne logo" class="blue-img">
                     </div>
                     <p class="desc">
                         long standing <br/>buisness
@@ -83,31 +84,68 @@
         <div class="xd">
             <img src="" alt="">
         </div>
-<div id="weq">
 
-        <div class="gray-container">
-            <div class="container">
-                <!--3rd section here-->
-                <ul>
-                    <a href=""><li>Disfruta y aprende <br/>donde y cuando quieras</li></a>
-                    <a href=""><li>Acelera tu aprendizaje</li></a>
-                    <a href=""><li>Potencia tu prestigio<br/> profesional</li></a>
-                </ul>
+        <div id="weq">
+          <div class="gray-container">
+                <div class="container">
+                  <div class="slideshow-container">
+              <!--3rd section here-->
+              <ul>
+                <a onclick="currentSlide(1)"><li>Disfruta y aprende <br/>donde y cuando quieras</li></a>
+                <a onclick="currentSlide(2)"><li>Acelera tu aprendizaje</li></a>
+                <a onclick="currentSlide(3)"><li>Potencia tu prestigio<br/> profesional</li></a>
+              </ul>
+             </div>
+             <div class="mySlides fade">
+               <div class="list-first">
+                 <p class="list-first list-first-mobile">
+                    Sumérgete en situaciones reales e inmersivas claves para el éxito en la dirección de proyectos y equipos.
+                 </p>
+                 <img src="imgs/stock1.jpeg" alt="stock photo 1" class="list-first-img">
+               </div>
+               <div class="main-buttons main-buttons-white">
+                <p>¿Quieres ser parte de los Beta Testers?
+                </p>
+                <a href="register.php">Descarga</a>
+              </div>
+             </div>
+             <div class="mySlides fade">
                 <div class="list-first">
                     <p class="list-first list-first-mobile">
-                        Obten un alto desempeno y rendimiento de forma rapida con un metodo unico e innovador de aprendizaje
+                        Obten un alto desempeno y rendimiento de forma rapida con un metodo unico e innovador de aprendizaje.
+                        
                     </p>
-                    <img src="imgs/stock1.jpeg" alt="stock photo 1" class="list-first-img">
+                    <img src="imgs/stock2.jpeg" alt="stock photo 2" class="list-first-img">
                 </div>
                 <div class="main-buttons main-buttons-white">
                     <p>¿Quieres colaborar en el desarrollo del juego?
                     </p>
-                    <a href="#">Descarga</a>
-                </div>
+                    <a href="register.php">Descarga</a>
+                  </div>
+
+             </div>
+             <div class="mySlides fade">
+               <div class="list-first">
+                   <p class="list-first list-first-mobile">
+                    Haz que tu aprendizaje conforme e impulse  equipos de gran impacto en la cuenta de resultados, la forma más sólida y solvente de prestigio profesional.
+
+                   </p>
+                   <img src="imgs/stock3.jpeg" alt="stock photo 3" class="list-first-img">
+               </div>
+               <div class="main-buttons main-buttons-white">
+                <p>¿Quieres formar parte de nuestra prestigiosa comunidad de True Managers?
+                </p>
+                <a href="register.php">Descarga</a>
+              </div>
+
+
+
+
+             </div>
+             
             </div>
-        
-        
-    </div>
+          </div>
+        </div>
         <footer>
             <div class="container">
                     <img src="imgs/tmg.png" alt="true manager games" class="footer-logo">
@@ -115,45 +153,42 @@
                     <p class="desc" id="footer-left-desc">
                             long standing <br/>buisness
                         </p>
-                    
+
             </div>
-            
+
             <div class="footer-container">
                 <div class="container">
                     <!--rest of footer here-->
                     <p class="footer-logo-desc">True Manager Games revoluciona la forma de aprender y desarrollar el talento</p>
                     <div class="main-buttons">
-                        <p>¿Quieres colaborar en el desarrollo del juego?
+                        <p>Suscríbete a nuestra Newsletter y mantente informado
                         </p>
-                        <a href="#">Descarga</a>
+                        <a href="docs/tekne.pdf">ÚNETE</a>
                     </div>
-                        
+
                         <div class="main-buttons">
                             <p>¿Quieres colaborar en el desarrollo del juego?
                             </p>
-                            <a href="#">Descarga</a>
+                            <a href="register.php">Descarga</a>
                         </div>
                 </div>
             </div>
         </footer>
 
-
+        <script src="slide.js"></script>
         <script>
             var menu = document.getElementById('menu');
             var nav = document.getElementById('nav');
             var exit = document.getElementById('exit');
-
             menu.addEventListener('click', function(e) {
                 nav.classList.toggle('hide-mobile');
                 e.preventDefault();
             });
-
             exit.addEventListener('click', function(e) {
                 nav.classList.add('hide-mobile');
                 e.preventDefault();
             });
-        
-        </script>
 
+        </script>
     </body>
 </html>

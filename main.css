@@ -147,7 +147,10 @@ body {
 .gray-container ul a {
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
 }
+
+
 
 .buttons {
     display: flex;
@@ -189,9 +192,8 @@ body {
 
 
 
-
-.gray-container ul a:hover {
-    background-color: gray;
+.gray-container ul a:hover, .gray-container ul a:active {
+    background-color: #2f2f2f;
 }
 
 p, blockquote {
@@ -402,6 +404,10 @@ nav ul li a:hover {
         width: 50%;
     }
 
+    .blue-img {
+        width: 25%!important;
+    }
+
     .blue-container ul li:nth-child(3) img {
         width: 11%;
         margin-top: -6px;
@@ -531,7 +537,10 @@ ALL ABOVE WILL BE CHANGED LATER
 */
 
 /* change this to maybe 1600px later*/
-@media only screen and (min-width: 1025px) {
+
+
+
+@media only screen and (min-width: 1280px) {
    
 
    
@@ -637,7 +646,7 @@ ALL ABOVE WILL BE CHANGED LATER
     }
 
     .first-section {
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .second-section {
@@ -718,7 +727,7 @@ ALL ABOVE WILL BE CHANGED LATER
        
 
     .gray-container ul a:hover { 
-        background-color: gray;
+        background-color: #2f2f2f;
     }
 
     .list-first {
@@ -801,6 +810,10 @@ ALL ABOVE WILL BE CHANGED LATER
         background-color: #fcc11e;
         display: block;
         padding: 1em;
+    }
+
+    .main-buttons a:hover {
+        background-color: #d49c00;
     }
 
     .main-buttons-white p{
